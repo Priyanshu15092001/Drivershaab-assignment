@@ -1,0 +1,77 @@
+.bookCard{
+    background-color: #fff;
+    width:20rem;
+    border: 2px solid #754E1A
+}
+
+.bookImage{
+    height: 15rem
+}
+
+.bookDetails{
+    margin-top: 10px;
+}
+
+.bookDetails h3{
+    text-align: center;
+    color: #754E1A;
+    font-weight: 800;
+}
+
+.bookDetails p{
+    text-align: center;
+    color: #CBA35C;
+    font-weight: 400;
+}
+
+.bookDetails span{
+    font-weight: 600;
+    color: #754E1A;
+}
+
+.description{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+/* .description span{
+    font-weight: 400;
+    color: #CBA35C;
+} */
+
+.buttons{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.editButton{
+    /* width: 70%; */
+  padding: 8px;
+  background-color: #CBA35C;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  }
+
+
+  .deleteButton{
+    /* width: 70%; */
+  padding: 8px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  }

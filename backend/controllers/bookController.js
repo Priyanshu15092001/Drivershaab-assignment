@@ -9,11 +9,11 @@ exports.getBookById = async (req, res) => {
   const book = await Book.findById(req.params.id);
   if (!book) return res.status(404).json({ message: "Book not found" });
   res.json(book);
-};
+}; 
  
 exports.createBook = async (req, res) => {
   const book = await Book.create(req.body);
-  res.status(201).json(book);
+  res.status(201).json(book); 
 };
 
 exports.updateBook = async (req, res) => {
